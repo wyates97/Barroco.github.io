@@ -1,0 +1,331 @@
+/* Standard Styles */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Nunito', sans-serif;
+	margin: 0;
+}
+img {
+	max-width: 100%;
+}
+h1,h2 {
+	font-family: 'Playfair Display', serif;
+}
+
+/* Header and Navigation */
+
+header {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	text-align: center;
+}
+
+header nav ul {
+	margin: 0;
+	margin-top: 2%;
+  padding: 0;
+	padding-top: 3%;
+  list-style: none;
+  border: 2px solid #000;
+}
+header nav ul li {
+	padding-bottom: 3%;
+}
+header nav a {
+	padding-bottom: .75%;
+  padding-top: 3%;
+	color: #000;
+	font-size: 13px;
+	text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgb(232,232,232);
+	border-bottom-left-radius: 2.5px;
+	border-bottom-right-radius: 2.5px;
+}
+header nav ul li img {
+	width: 6%;
+}
+
+/* Top Contact Info Block */
+
+header section {
+	background-color: #000;
+	color: #fff;
+	font-size: 11.5px;
+}
+
+header section ul {
+  padding: 0;
+	margin: 0;
+	list-style: none;
+}
+header section ul li {
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+}
+
+/* Hero Image */
+
+main {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.branding {
+	background-image: url('https://static.wixstatic.com/media/0396af7423c344a39107ad593c4500f8.jpg');
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+}
+.branding img {
+	padding-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+	display: block;
+  width: 80%;
+}
+.branding h2 {
+	font-size: 15px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+.branding ul {
+	padding: 0;
+	padding-bottom: 15%;
+	font-size: 26px;
+	font-family: 'Anton';
+	list-style: none;
+}
+.branding ul li {
+	margin-bottom: 5%;
+}
+.branding ul span {
+	font-size: 23px;
+	font-family: 'Pacifico';
+}
+.introductory {
+	text-align: center;
+	padding: 8%;
+}
+.introductory h2 {
+	font-size: 30px;
+}
+.introductory p {
+	font-size: 15px;
+	line-height: 27px;
+}
+
+/* Specials */
+
+.specials {
+	color: #fff;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	font-size: 10px;
+}
+.specials h3 {
+	padding-top: 15%;
+	font-size: 30px;
+}
+.special h4 {
+	font-size: 12px;
+}
+.deals {
+	background-image: url('https://static.wixstatic.com/media/21593d6909a64def8001202540902848.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.deals ul {
+	padding: 0;
+	margin-left: 8%;
+	margin-right: 8%;
+	list-style: none;
+}
+.deals p {
+	margin-left: 8%;
+	margin-right: 8%;
+	padding-bottom: 15%;
+}
+.rightImg {
+	padding: 0;
+	margin: 0;
+}
+.specialsListImg ul {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	list-style: none;
+}
+
+/* Locations */
+
+.locations {
+	text-align: center;
+}
+.locations h2 {
+	font-size: 23px;
+	color: rgb(222,80,33);
+}
+.locations span {
+	font-size: 32px;
+}
+.locations h3 {
+	font-size: 18px;
+	font-family: 'Playfair Display', serif;
+}
+.locations p {
+	font-size: 11px;
+}
+.locations ul {
+	padding: 0;
+	list-style: none;
+}
+.dancingLady {
+	padding-top: 3%;
+}
+
+/* Footer */
+
+footer {
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-bottom: 5%;
+	text-align: center;
+	font-size: 11px;
+}
+footer span {
+	font-size: 32px;
+}
+footer ul {
+	padding: 0;
+	list-style: none;
+	border-top: 1px solid rgb(232,232,232);
+	padding-bottom: .5%;
+}
+.copyrights {
+	background-color: rgb(232,232,232);
+	padding: 10px;
+	font-size: 10px;
+}
+
+@media screen and (min-width: 900px) {
+	header nav ul {
+		display: flex;
+	}
+	header nav ul li {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	header nav ul li img {
+		width: 25px;
+	}
+	header nav a {
+		font-size: 16px;
+		border-bottom: 1px solid white;
+	}
+	header section ul {
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		width: 75%;
+		font-size: 14px;
+	}
+	.branding img {
+		width: 55%;
+	}
+	.branding h2 {
+		font-size: 25px;
+	}
+	.branding  ul {
+		padding-top: 2%;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		font-size: 36px;
+	}
+	.branding ul li {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.branding ul span {
+		font-size: 33px;
+	}
+	.introductory h2 {
+		font-size: 41px;
+	}
+	.introductory p {
+		font-size: 20px;
+		line-height: 32px;
+	}
+	.dealsContainer {
+		display: flex;
+	}
+	.deals {
+		width: 50%;
+	}
+	.rightImg {
+		width: 50%;
+	}
+	.specials {
+		font-size: 16px;
+	}
+	.specials h3 {
+		font-size: 41px;
+	}
+	.specials h4 {
+		font-size: 18px;
+	}
+	.locations ul {
+		display: flex;
+	}
+	.locations ul li {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.locations h2 {
+		font-size: 34px;
+	}
+	.locations span {
+		font-size: 43px;
+	}
+	.locations h3 {
+		font-size: 21px;
+	}
+	.locations p {
+		font-size: 16px;
+	}
+	.footerContainer {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 13px;
+	}
+	.footerInfo {
+		width: 50%;
+		margin-top: 5%;
+		text-align: right;
+	}
+	footer span {
+		font-size: 43px;
+	}
+	.footerList {
+		width: 50%;
+		margin-left: 15%;
+		padding-bottom: 2%;
+		text-align: left;
+	}
+	.footerList h3 {
+		padding-top: 5%;
+	}
+	footer ul {
+		border-top: 1px solid white;
+	}
+	.copyrights {
+		font-size: 15px;
+	}
+}
